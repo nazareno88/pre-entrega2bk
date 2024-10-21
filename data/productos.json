@@ -1,0 +1,7 @@
+[
+    { "id": 1, "nombre": "Nike Air Max", "precio": 100 },
+    { "id": 2, "nombre": "Nike React", "precio": 120 },
+    { "id": 3, "nombre": "Nike Air Force", "precio": 90 },
+    { "id": 4, "nombre": "Nike Zoom", "precio": 110 },
+    { "id": 5, "nombre": "Nike Revolution", "precio": 85 }
+  ]
