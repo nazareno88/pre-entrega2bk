@@ -8,7 +8,7 @@
     <script>
         const socket = io();
 
-        // Enviar nuevo producto
+      
         function agregarProducto(event) {
             event.preventDefault();
             const producto = {
@@ -24,7 +24,7 @@
         
         socket.on('productosActualizados', (productos) => {
             const lista = document.getElementById('listaProductos');
-            lista.innerHTML = ''; // Limpiar la lista actual
+            lista.innerHTML = ''; 
             productos.forEach(prod => {
                 const item = document.createElement('li');
                 item.textContent = `${prod.nombre} - $${prod.precio}`;
